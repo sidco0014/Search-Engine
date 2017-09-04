@@ -1,4 +1,4 @@
-The ZIP contains the following :
+The Repo contains the following :
 =================================
 
 A) 6 souce codes:
@@ -33,53 +33,6 @@ A) 6 souce codes:
 6) BM25.py
 -- Generates the top 100 results for a given corpus and a set of query based on the BM25 score. Follow the commented instructions in the py file. 
 
-
-
-
-B) 42 files:
------------------------
-1)		bm25_expanded_query_results.txt 
-2) 		bm25_general_corpus_results.txt
-3)		bm25_stemmed_corpus_results.txt
-4) 		bm25_stopped_corpus_results.txt	
-5)		Cosine_Results.txt
-6)		eval_results_cosine.txt
-7)		eval_results_cosine_p_at_k.txt
-8)		eval_results_lucene.txt	
-9)		eval_results_lucene_p_at_k.txt
-10) 	eval_results_lucene_stopped.txt
-11)		eval_results_lucene_stopped_p_at_k.txt
-12)		eval_results_tfidf.txt
-13)		eval_results_tfidf_p_at_k.txt
-14) 	inverted_index_stemmed_unigrams.txt
-15)		inverted_index_stopped_unigrams.txt
-16)		inverted_index_unigrams.txt      // It is the inverted index for the general corpus
-17)		Lucene_Results.txt
-18)		Lucene_Results_Stopped.txt
-19)		Precision_at_K_BM25_general.txt
-20) 	Precision_at_K_BM25_stemmed.txt
-21)		Precision_at_K_BM25_stopped.txt
-22)		query.txt
-23)		query_stopped.txt
-24)		Relevant_Docs_for_each_query.txt
-25)		terms_in_docs.txt				//	For general inverted index
-26)		terms_in_docs_stemmed.txt		//	For inverted index of stemmed corpus
-27)		terms_in_docs_stopped.txt		//	For inverted index of stopped corpus
-28)		tfidf_invindex.txt				//	inverted_index with tfidf score of each document for each term 
-29)		TFIDF_Results.txt
-30)		tokenscount.txt					//	For general inverted index
-31)		tokenscount_stemmed.txt			//	For inverted index of stemmed corpus
-32)		tokenscount_stopped.txt			//	For inverted index of stopped corpus
-33)		cacm.query
-34)		cacm_rel.txt
-35)		cacm_stemmed.query.txt
-36)		cacm_stem.txt
-37)		common_words.txt
-38)		CACMCORPUS folder				// General corpus
-39)		CACMCORPUS-STOPPED folder		// Stopped corpus
-40)		Stemmed-Corpus folder			// Stemmed Corpus
-41) 	Project_Report.pdf
-42)		README.txt
 
 SETUP:
 ----------------
